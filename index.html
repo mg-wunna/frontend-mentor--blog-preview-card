@@ -18,28 +18,45 @@
     <link rel="stylesheet" href="./fonts.css" />
     <link rel="stylesheet" href="./style.min.css" />
   </head>
-  <body class="bg-yellow">
-    <div>
-      <img src="./assets/images/illustration-article.svg" />
-      <p>Learning</p>
-      <p>Published 21 Dec 2023</p>
-      <h1>HTML & CSS foundations</h1>
-      <p>
-        These languages are the backbone of every website, defining structure,
-        content, and presentation.
-      </p>
-      <div>
-        <img src="./assets/images/image-avatar.webp" />
-        <p>Greg Hooper</p>
+  <body class="bg-yellow font-figtree">
+    <div
+      class="bg-white space-y-6 shadow-custom w-96 border border-solid border-black fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-xl p-6"
+    >
+      <img class="rounded-xl" src="./assets/images/illustration-article.svg" />
+      <div class="space-y-3">
+        <span
+          class="text-sm font-medium px-3 py-1 bg-yellow text-black rounded-md"
+          >Learning</span
+        >
+        <p class="text-black">Published 21 Dec 2023</p>
+        <h1 class="text-2xl text-black font-bold">HTML & CSS foundations</h1>
+        <p class="text-grey">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+      <div class="flex gap-x-3 items-center">
+        <img
+          class="w-8 h-8 rounded-full"
+          src="./assets/images/image-avatar.webp"
+        />
+        <p class="text-sm font-bold">Greg Hooper</p>
       </div>
     </div>
-    <div
-      class="fixed text-xs bottom-4 left-1/2 -translate-x-1/2 [&>a]:text-blue-500 [&>a]:hover:text-blue-400"
-    >
+
+    <div class="fixed text-xs bottom-4 left-1/2 -translate-x-1/2">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-blue-800 hover:text-blue-500"
         >Frontend Mentor</a
-      >. Coded by <a href="https://mg-wunna.github.io/mg-wunna">Mg Wunna</a>.
+      >. Coded by
+      <a
+        href="https://mg-wunna.github.io/mg-wunna"
+        class="text-blue-800 hover:text-blue-500"
+        >Mg Wunna</a
+      >.
     </div>
   </body>
 </html>

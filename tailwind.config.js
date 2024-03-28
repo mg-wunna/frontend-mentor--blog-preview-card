@@ -13,6 +13,9 @@ module.exports = {
         figtree: ["figtree"],
         "figtree-italic": ['"figtree-italic"'],
       },
+      boxShadow: {
+        custom: "8px 8px 0px hsl(0, 0%, 7%)",
+      },
     },
   },
   plugins: [],
